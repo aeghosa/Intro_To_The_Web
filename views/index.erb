@@ -1,10 +1,6 @@
+<% if @name %>
 <h1>My name is <%= @name %></h1>
+<% end %>
 <div style='border: 3px dashed red'>
     <img src='https://i.imgur.com/jFaSxym.png'>
    </div>
-
-#   Our presentation layer should not be cluttered with this kind of randomising logic.
-#  Rule of thumb: view logic should be limited to:
-
-# Light Conditionals (i.e. if and else), and
-# Light Iterators (i.e. each).
